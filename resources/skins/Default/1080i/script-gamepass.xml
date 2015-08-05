@@ -445,17 +445,17 @@
                 </control>
                 <control type="image">
                         <left>30</left>
-                        <top>26</top>
-                        <width>80</width>
-                        <height>53</height>
+                        <top>25</top>
+                        <width>82</width>
+                        <height>55</height>
                         <info>ListItem.Property(away_thumb)</info>
                         <visible>ListItem.Property(isPlayable)</visible>
                 </control>
                 <control type="image">
                         <left>30</left>
-                        <top>26</top>
-                        <width>80</width>
-                        <height>53</height>
+                        <top>25</top>
+                        <width>82</width>
+                        <height>55</height>
                         <info>ListItem.Property(away_thumb)</info>
                         <colordiffuse>66FFFFFF</colordiffuse>
                         <visible>!ListItem.Property(isPlayable)</visible>
@@ -542,17 +542,17 @@
                 </control>
                 <control type="image">
                         <left>670</left>
-                        <top>26</top>
-                        <width>80</width>
-                        <height>53</height>
+                        <top>25</top>
+                        <width>82</width>
+                        <height>55</height>
                         <info>ListItem.Property(home_thumb)</info>
                         <visible>ListItem.Property(isPlayable) + ListItem.Property(is_game)</visible>
                 </control>
                 <control type="image">
                         <left>670</left>
-                        <top>26</top>
-                        <width>80</width>
-                        <height>53</height>
+                        <top>25</top>
+                        <width>82</width>
+                        <height>55</height>
                         <info>ListItem.Property(home_thumb)</info>
                         <colordiffuse>66FFFFFF</colordiffuse>
                         <visible>!ListItem.Property(isPlayable) + ListItem.Property(is_game)</visible>
@@ -717,7 +717,7 @@
             <texturesliderbackground>-</texturesliderbackground>
             <texturesliderbar border="1" flipx="true">GamePass/texturesliderbar.png</texturesliderbar>
             <texturesliderbarfocus border="1" flipx="true">GamePass/texturesliderbar2.png</texturesliderbarfocus>
-            <showonepage>true</showonepage>
+            <showonepage>false</showonepage>
             <orientation>vertical</orientation>
         </control>
     </controls>
